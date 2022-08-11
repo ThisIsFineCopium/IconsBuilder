@@ -119,7 +119,7 @@ namespace IconsBuilder
                                 Text = RenderName.Split(',').FirstOrDefault();
                             break;
                         case MonsterRarity.Unique:
-                            MainTexture.UV = SpriteHelper.GetUV(MapIconsIndex.LootFilterLargeCyanHexagon);
+                            MainTexture.UV = SpriteHelper.GetUV(MapIconsIndex.LootFilterLargeWhiteHexagon);
                             MainTexture.Color = Color.DarkOrange;
                             if (settings.ShowUniqueMonsterName)
                                 Text = RenderName.Split(',').FirstOrDefault();
